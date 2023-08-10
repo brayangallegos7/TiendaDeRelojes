@@ -19,7 +19,7 @@ googleButton.addEventListener("click", async (e) => {
 
     // show welcome message
     showMessage("¡Bienvenido! " + credentials.user.displayName);
-    setTimeout(()=> location.href="./carrito.html",1000);
+    setTimeout(()=> location.href="./carrito.html",3000);
 
   } catch (error) {
     console.log(error);
